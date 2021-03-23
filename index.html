@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>:: Welcome to Sagar Plastics::</title>
+<link href="css/default.css" rel="stylesheet" type="text/css">
+<!-- google fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Open+Sans&family=Raleway:wght@500&display=swap" rel="stylesheet"> 
+<!-- font awsm-->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!--responsive css-->
+<link rel="stylesheet" media="only screen and (max-width: 649px) and (min-width: 359px)" href="css/480.css">
+
+
+<!--common js CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/default.js"></script>
+<!--slider css -->
+<link rel="stylesheet" href="css/slider.css">
+
+</head>
+
+<body>
+<!-- sliding nav -->
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn">&times;</a>
+  <a href="#">HOME</a>
+  <a href="#">ABOUT US</a>
+  <a href="#">PRODUCTS</a>
+  	<ul>
+    	<li><a href="#">asdasdasdasd</a></li>
+        <li><a href="#">asdasdasdasd</a></li>
+        <li><a href="#">asdasdasdasd</a></li>
+    </ul>
+  <a href="#">INFRASTRUCTURE</a>
+  <a href="#">CLIENTELE</a>
+  <a href="#">CONTACT</a>
+</div>
+
+<div id="main">
+	<div id="header">
+      <div class="col_one_three">
+      	<div class="menu">
+        	<span class="menuLines">&#9776;</span>
+            <span class="menuTxt">MENU</span>
+        </div>
+      </div>
+            
+      <div class="col_one_three middleAlign">
+      	<div class="logo">
+        	<img src="images/logo.png" alt="logo">
+        </div>
+      </div>
+            
+      <div class="col_one_three">
+      	<div class="socialMedia">
+        	<a href="https://twitter.com/IndiaUKSusChem"><i class="fa fa-twitter rightPadding"></i></a> | <a href="https://twitter.com/IndiaUKSusChem"><i class="fa fa-facebook rightPadding"></i></a>
+        </div>
+      </div>
+    <div class="clear"></div>      
+    </div>
+    
+    <!-- banner space & slider container starts-->
+	<div class="slider-container">
+      <div class="slider">
+        <div class="slider__item">
+          <img src="images/slide1.jpg" alt="">
+        </div>
+        
+         <div class="slider__item">
+          <img src="images/slide2.jpg" alt="">
+        </div>
+        
+        <div class="slider__item">
+          <img src="images/slide3.jpg" alt="">
+        </div>
+        
+        <div class="slider__item">
+          <img src="images/slide4.jpg" alt="">
+        </div>
+           
+      </div><!-- slider div ends -->
+      <div class="slider__switch slider__switch--prev" data-ikslider-dir="prev">
+          <span><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 20 20"><path d="M13.89 17.418c.27.272.27.71 0 .98s-.7.27-.968 0l-7.83-7.91c-.268-.27-.268-.706 0-.978l7.83-7.908c.268-.27.7-.27.97 0s.267.71 0 .98L6.75 10l7.14 7.418z"/></svg></span>
+      </div>
+      <div class="slider__switch slider__switch--next" data-ikslider-dir="next">
+          <span><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 20 20"><path d="M13.25 10L6.11 2.58c-.27-.27-.27-.707 0-.98.267-.27.7-.27.968 0l7.83 7.91c.268.27.268.708 0 .978l-7.83 7.908c-.268.27-.7.27-.97 0s-.267-.707 0-.98L13.25 10z"/></svg></span>
+      </div>
+      
+	</div><!--slider container ends-->
+    
+    <div class="usp">
+    	<div class="redBand">
+        	<div class="USPBlock">
+            	<div class="iconHolder"><img src="images/USP1.png" class="resrponsiveImgFull" alt="USP"></div>
+                <div class="iconTxt">
+                	<div class="boldHeading">CLIENT SPECIFIC</div>
+                    <div class="runningTxt">Catering to varied packaging needs </div>
+                </div>
+            <div class="clear"></div>
+          </div>
+          
+          <div class="USPBlock">
+            	<div class="iconHolder"><img src="images/USP2.png" class="resrponsiveImgFull" alt="USP"></div>
+                <div class="iconTxt">
+               	  <div class="boldHeading">GLOBAL QUALITY </div>
+                    <div class="runningTxt">Delivering products across the world</div>
+                </div>
+            <div class="clear"></div>
+          </div>
+          
+          <div class="USPBlock">
+            	<div class="iconHolder"><img src="images/USP3.png" class="resrponsiveImgFull" alt="USP"></div>
+                <div class="iconTxt">
+               	  <div class="boldHeading">Deliverability</div>
+                    <div class="runningTxt">Proven ability each time- every time</div>
+                </div>
+            <div class="clear"></div>
+          </div>
+          
+        <div class="clear"></div>
+        </div>
+    </div>
+                   
+</div><!--main div ends-->
+
+
+<!--home slider script js-->
+<script src="js/slider.js"></script>
+<script>
+$(".slider-container").ikSlider({
+  speed: 300
+});
+$(".slider-container").on('changeSlide.ikSlider', function (evt) { console.log(evt.currentSlide); });
+
+</script>
+
+</body>
+</html>
