@@ -1,1 +1,163 @@
+@charset "utf-8";
+/* font-family: 'Open Sans', sans-serif; font-family: 'Raleway', sans-serif; font-family: 'Montserrat', sans-serif; */
 
+body{
+	margin:0px;
+	padding:0px;
+}
+.clear{
+	clear:both;
+}
+h1, h2, h3, h4, h5, p{
+	margin:0px;
+}
+
+.col_one_three{
+	float:left;
+	width:31.33%;
+	padding:1%;
+	/*background-color:#aeaeae;*/
+}
+.middleAlign{
+	text-align:center;
+}
+.rightAlign{
+	text-align:right;
+}
+.resrponsiveImgFull{
+	width:100%;
+	height:auto;
+}
+
+
+/* header */
+#header{
+	padding-left:10%;
+	padding-right:10%;
+	padding-top:1%;
+	padding-bottom:1%;
+	font-family: 'Open Sans';
+	font-size:0.9em;
+	color:#666;
+	/*border-bottom:1px solid #aeaeae;*/
+}
+#header a{
+	text-decoration:none;
+	color:#666;
+}
+.menu{
+	padding-top:30px;
+	cursor:pointer
+}
+
+.menuTxt{
+	padding-left:5px;
+}
+
+.logo img{
+	width:45%;
+	height:auto;
+}
+.socialMedia{
+	
+	padding-top:30px;
+	font-size:0.9em;
+	text-align:right;
+}
+
+/*sliding nav */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  font-family: 'Montserrat';
+  font-size:1em;
+  overflow-x: hidden;
+  background-color:#000;
+  transition: 0.5s;
+  padding-top: 60px;
+  border-right:1px solid #aeaeae;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size:1em;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #fff;
+}
+.sidenav ul{
+	list-style-type:none;
+	color:#fff;
+}
+.sidenav ul li{
+	margin:0px;
+	padding:0px;
+}
+.sidenav ul li a{
+	color: #818181;
+}
+.sidenav ul li a:hover{
+	color:#fff;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* USP */
+.usp{
+	padding-top:30px;
+	background-image: url(../images/uspBG.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.redBand{
+	width:66%;
+	height:auto;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:2%;
+	padding-right:2%;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:80px;
+	background-color:#ea0303;
+}
+.USPBlock{
+	float:left;
+	width:31.33%;
+	padding:1%;
+}
+.iconHolder{
+	float:left;
+	width:63px;
+	height:63%;
+}
+.iconTxt{
+	width:70%;
+	padding-top:12px;
+	float:left;
+	padding-left:20px;
+	color:#fff;
+	
+}
+.boldHeading{
+	text-transform:uppercase;
+	font-family: 'Raleway';
+	font-size:1.1em;
+}
+.runningTxt{
+	font-family: 'Open Sans';
+	font-size:0.8em;
+}
