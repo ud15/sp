@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, p{
 
 /* USP */
 .usp{
-	padding-top:30px;
+	padding-top:8px;
 	background-image: url(../images/uspBG.jpg);
 	background-repeat: repeat-x;
 	background-position: top;
@@ -216,15 +216,17 @@ h1, h2, h3, h4, h5, p{
 	text-align:center;
 	padding-bottom:50px;
 	padding-top:50px;
+	
 }
 .catThumb{
-	float:left;
-	width:16.9%;
+	display:inline-block;
+	width:16.5%;
 	padding:0.8%;
 	border:1px solid #E6E6E6;
 	margin-right:16px;
+	margin-bottom:20px;
 	padding-bottom:50px;
-	
+	vertical-align:top;
 }
 .pdtThumb{
 	width:80%;
@@ -274,4 +276,82 @@ h1, h2, h3, h4, h5, p{
 	font-size:0.7em;
 	color:#fff;
 	text-align:center;
+}
+
+
+/* insdie page css */
+#insideBanner{
+	padding-top:9%;
+	background-color:#e8e8e8;
+}
+#insideMatter{
+	padding-left: 10%;
+	padding-right: 10%;
+	background-image: url(../images/insideMatterBg.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	padding-top:20px;
+	text-align:center;
+}
+.whiteBlock{
+	background-color:#fff;
+	padding:30px;
+}
+#insideMatter h1, h3{
+	font-family: 'Roboto Slab', serif;
+	font-weight:bold;
+	color:#1e1e1e;
+	padding-bottom:10px;
+
+}
+#insideMatter p{
+	font-family: 'Open Sans';
+	font-size:0.9em;
+	color:#666;
+	padding-bottom:10px;
+	line-height:22px;
+	margin-bottom:10px;
+}
+#insideMatter ul ol{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+#insideMatter ol li{
+	font-family: 'Open Sans';
+	font-size:0.9em;
+	color:#666;
+	font-weight:bold;
+}
+#insideMatter ul li{
+	cursor:pointer;
+	font-family: 'Open Sans';
+	font-size:0.9em;
+	width:auto;
+	display:inline-block;
+	padding:15px;
+	background:#000;
+	color:#fff;
+	border-radius:100px;
+	margin:10px;
+	transition:all 0.5s;
+}
+#insideMatter ul li:hover{
+	background-color:#fff;
+	color:#000;
+	box-shadow:0px 0px 10px 2px #e7e7e7;
+}
+
+/* celinete */
+#clientLogoHolder{
+	text-align:center;
+}
+.logoHolder{
+	display:inline-block;
+	width:18%;
+	padding:1%;
+	margin:10px;
+	border:1px solid #CCC;
+	border-radius:10px;
 }
