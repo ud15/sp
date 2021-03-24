@@ -3,10 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>:: WELCOME Welcome to Sagar Plastics::</title>
+<title>:: Welcome to Sagar Plastics::</title>
 <link href="css/default.css" rel="stylesheet" type="text/css">
 <!-- google fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Open+Sans&family=Raleway:wght@500&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Montserrat:wght@100;500&family=Open+Sans&family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet"> 
 <!-- font awsm-->
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -20,23 +23,45 @@
 <!--slider css -->
 <link rel="stylesheet" href="css/slider.css">
 
+<!--pdt slider js & css-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+<link rel="stylesheet" href="css/product-slider.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#pdt-slider").owlCarousel({
+        items:4,
+        itemsDesktop:[1199,3],
+        itemsDesktopSmall:[1000,2],
+        itemsTablet:[767,1],
+        pagination: false,
+        navigation:true,
+        navigationText:["",""],
+        autoPlay:false
+    });
+});
+</script>
 </head>
 
 <body>
 <!-- sliding nav -->
 <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn">&times;</a>
-  <a href="#">HOME</a>
-  <a href="#">ABOUT US</a>
-  <a href="#">PRODUCTS</a>
+  <a href="#" class="closebtn">&times;</a>
+  <a href="index.html">HOME</a>
+  <a href="about-sagar-plastic-products.html">ABOUT US</a>
+  <a href="plastic-products-dairy-cups.html">PRODUCTS</a>
   	<ul>
-    	<li><a href="#">asdasdasdasd</a></li>
-        <li><a href="#">asdasdasdasd</a></li>
-        <li><a href="#">asdasdasdasd</a></li>
+    	<li><a href="plastic-products-dairy-cups.html">Dairy Cups</a></li>
+        <li><a href="plastic-products-juices-beverages-water-cups.html">Juices, Beverages & Water Cups</a></li>
+        <li><a href="plastic-products-reactangular-hinged-cups.html">Rectangular Hinged Containers</a></li>
+        <li><a href="plastic-products-pet-clear-cups.html">PET Clear Cups</a></li>
+        <li><a href="plastic-plates-bowls.html">Plates & Bowls</a></li>
     </ul>
-  <a href="#">INFRASTRUCTURE</a>
-  <a href="#">CLIENTELE</a>
-  <a href="#">CONTACT</a>
+  <a href="sagar-plastic-infrastructure.html">INFRASTRUCTURE</a>
+  <a href="sagar-plastic-clients.html">CLIENTELE</a>
+  <a href="contact-sagar-plastic.html">CONTACT</a>
 </div>
 
 <div id="main">
@@ -95,6 +120,7 @@
     	<div class="redBand">
         	<div class="USPBlock">
             	<div class="iconHolder"><img src="images/USP1.png" class="resrponsiveImgFull" alt="USP"></div>
+                <div class="iconHolderMob"><img src="images/USP1.jpg" class="resrponsiveImgFull" alt="USP"></div>
                 <div class="iconTxt">
                 	<div class="boldHeading">CLIENT SPECIFIC</div>
                     <div class="runningTxt">Catering to varied packaging needs </div>
@@ -104,6 +130,7 @@
           
           <div class="USPBlock">
             	<div class="iconHolder"><img src="images/USP2.png" class="resrponsiveImgFull" alt="USP"></div>
+                <div class="iconHolderMob"><img src="images/USP2.jpg" class="resrponsiveImgFull" alt="USP"></div>
                 <div class="iconTxt">
                	  <div class="boldHeading">GLOBAL QUALITY </div>
                     <div class="runningTxt">Delivering products across the world</div>
@@ -113,6 +140,7 @@
           
           <div class="USPBlock">
             	<div class="iconHolder"><img src="images/USP3.png" class="resrponsiveImgFull" alt="USP"></div>
+                <div class="iconHolderMob"><img src="images/USP3.jpg" class="resrponsiveImgFull" alt="USP"></div>
                 <div class="iconTxt">
                	  <div class="boldHeading">Deliverability</div>
                     <div class="runningTxt">Proven ability each time- every time</div>
@@ -122,6 +150,104 @@
           
         <div class="clear"></div>
         </div>
+    </div><!-- end of USP div -->
+    
+    <!-- browse all pdts -->
+    <div class="pdtHolderSlider">
+    	<h1>Complete Packaging Products</h1>
+        <p>SPP is leader in developing and producing packaging for food, beverage, pharmaceutical, medical, home and personal care & other products</p>
+    	<div id="pdt-slider" class="owl-carousel">
+           <div class="pdtHolder">
+           	<img src="images/pdt/p9.jpg" class="resrponsiveImgFull">
+           	<span class="pdtName">PDT NAME</span>
+           </div>
+           <div class="pdtHolder">
+           	<img src="images/pdt/p8.jpg" class="resrponsiveImgFull">
+           	<span class="pdtName">PDT NAME</span>
+           </div>
+           <div class="pdtHolder">
+           	<img src="images/pdt/p7.jpg" class="resrponsiveImgFull">
+           	<span class="pdtName">PDT NAME</span>
+           </div>
+           <div class="pdtHolder">
+           	<img src="images/pdt/p6.jpg" class="resrponsiveImgFull">
+           	<span class="pdtName">PDT NAME</span>
+           </div>
+           <div class="pdtHolder">
+           	<img src="images/pdt/p5.jpg" class="resrponsiveImgFull">
+           	<span class="pdtName">PDT NAME</span>
+           </div>
+           <div class="pdtHolder">
+           	<img src="images/pdt/p4.jpg" class="resrponsiveImgFull">
+           	<span class="pdtName">PDT NAME</span>
+           </div>
+           <div class="pdtHolder">
+           	<img src="images/pdt/p3.jpg" class="resrponsiveImgFull">
+           	<span class="pdtName">PDT NAME</span>
+           </div>
+           <div class="pdtHolder">
+           	<img src="images/pdt/p1.jpg" class="resrponsiveImgFull">
+           	<span class="pdtName">PDT NAME</span>
+           </div>
+           <div class="pdtHolder">
+           	<img src="images/pdt/p12.jpg" class="resrponsiveImgFull">
+           	<span class="pdtName">PDT NAME</span>
+           </div>
+           <div class="pdtHolder">
+           	<img src="images/pdt/p2.jpg" class="resrponsiveImgFull">
+           	<span class="pdtName">PDT NAME</span>
+           </div>
+           <div class="pdtHolder">
+           	<img src="images/pdt/p10.jpg" class="resrponsiveImgFull">
+           	<span class="pdtName">PDT NAME</span>
+           </div>
+           <div class="pdtHolder">
+           	<img src="images/pdt/p11.jpg" class="resrponsiveImgFull">
+           	<span class="pdtName">PDT NAME</span>
+           </div>
+		</div>
+    </div><!--pdt holder slider ends -->
+    
+    <div id="pdtbyCategory">
+    	<h1>Browse Products by category</h1>
+        <p>SPP is leader in developing and producing packaging for food, beverage, pharmaceutical, medical, home and personal care & other products</p>
+        <div id="catThumbHolder">
+        	<div class="catThumb">
+            	<div class="pdtThumb"><img src="images/catPdt/dairyCups.jpg" class="resrponsiveImgFull" alt="thumb"></div>           	
+            	<h3>Dairy <br/>Cups</h3>
+                <a href="plastic-products-dairy-cups.html"><div class="stdBtn">Read More</div></a>
+       	  	</div>
+            
+            <div class="catThumb">
+            	<div class="pdtThumb"><img src="images/catPdt/juices-cups.jpg" class="resrponsiveImgFull" alt="thumb"></div>           	
+            	<h3>Juices, Beverages <br/>Cups</h3>
+                <a href="plastic-products-juices-beverages-water-cups.html"><div class="stdBtn">Read More</div></a>
+       	  	</div>
+            
+            <div class="catThumb">
+            	<div class="pdtThumb"><img src="images/catPdt/rect-hinged.jpg" class="resrponsiveImgFull" alt="thumb"></div>           	
+            	<h3>Rectangular Hinged Containers</h3>
+                <a href="plastic-products-reactangular-hinged-cups.html"><div class="stdBtn">Read More</div></a>
+       	  	</div>
+            
+            <div class="catThumb">
+            	<div class="pdtThumb"><img src="images/catPdt/pet-clear.jpg" class="resrponsiveImgFull" alt="thumb"></div>           	
+            	<h3>PET Clear <br/>Cups </h3>
+                <a href="plastic-products-pet-clear-cups.html"><div class="stdBtn">Read More</div></a>
+       	  	</div>
+            
+            <div class="catThumb">
+            	<div class="pdtThumb"><img src="images/catPdt/bowls-plates.jpg" class="resrponsiveImgFull" alt="thumb"></div>           	
+            	<h3>Plates & <br/>Bowls</h3>
+                <a href="plastic-plates-bowls.html"><div class="stdBtn">Read More</div></a>
+       	  	</div>
+                       
+        <div class="clear"></div>
+        </div>
+    </div><!-- end of browse by category -->
+    
+    <div id="footer">
+    	<p>&#169; All rights Reserved  - Sagar Plastic Products 2021 - 22</p>
     </div>
                    
 </div><!--main div ends-->
@@ -136,6 +262,7 @@ $(".slider-container").ikSlider({
 $(".slider-container").on('changeSlide.ikSlider', function (evt) { console.log(evt.currentSlide); });
 
 </script>
+
 
 </body>
 </html>
