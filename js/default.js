@@ -10,7 +10,7 @@ $(document).ready(function(){
 		}
 		else if($(window).width() < 480){
 			$("#mySidenav").width(300);
-			$("#main").animate({marginLeft: "50px"});
+			$("#main").animate({marginLeft: "10px"});
 			$("#main").animate({opacity: "0.5"},0.2);
 		}
 	})
