@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>:: Welcome to Sagar Plastics::</title>
+<link href="css/default.css" rel="stylesheet" type="text/css">
+<!-- google fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Montserrat:wght@100;500&family=Open+Sans&family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet"> 
+<!-- font awsm-->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!--responsive css-->
+<link rel="stylesheet" media="only screen and (max-width: 649px) and (min-width: 359px)" href="css/480.css">
+
+
+<!--common js CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/default.js"></script>
+
+
+<!--pdt slider js & css-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+<link rel="stylesheet" href="css/product-slider.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#pdt-slider").owlCarousel({
+        items:4,
+        itemsDesktop:[1199,3],
+        itemsDesktopSmall:[1000,2],
+        itemsTablet:[767,1],
+        pagination: false,
+        navigation:true,
+        navigationText:["",""],
+        autoPlay:false
+    });
+});
+</script>
+</head>
+
+<body>
+<!-- sliding nav -->
+<div id="mySidenav" class="sidenav">
+  <a href="#" class="closebtn">&times;</a>
+  <a href="index.html">HOME</a>
+  <a href="about-sagar-plastic-products.html">ABOUT US</a>
+  <a href="plastic-products-dairy-cups.html">PRODUCTS</a>
+  	<ul>
+    	<li><a href="plastic-products-dairy-cups.html">Dairy Cups</a></li>
+        <li><a href="plastic-products-juices-beverages-water-cups.html">Juices, Beverages & Water Cups</a></li>
+        <li><a href="plastic-products-reactangular-hinged-cups.html">Rectangular Hinged Containers</a></li>
+        <li><a href="plastic-products-pet-clear-cups.html">PET Clear Cups</a></li>
+        <li><a href="plastic-plates-bowls.html">Plates & Bowls</a></li>
+    </ul>
+  <a href="sagar-plastic-infrastructure.html">INFRASTRUCTURE</a>
+  <a href="sagar-plastic-clients.html">CLIENTELE</a>
+  <a href="contact-sagar-plastic.html">CONTACT</a>
+</div>
+
+<div id="main">
+	<div id="header">
+      <div class="col_one_three">
+      	<div class="menu">
+        	<span class="menuLines">&#9776;</span>
+            <span class="menuTxt">MENU</span>
+        </div>
+      </div>
+            
+      <div class="col_one_three middleAlign">
+      	<div class="logo">
+        	<img src="images/logo.png" alt="logo">
+        </div>
+      </div>
+            
+      <div class="col_one_three">
+      	<div class="socialMedia">
+        	<a href="https://twitter.com/IndiaUKSusChem"><i class="fa fa-twitter rightPadding"></i></a> | <a href="https://twitter.com/IndiaUKSusChem"><i class="fa fa-facebook rightPadding"></i></a>
+        </div>
+      </div>
+    <div class="clear"></div>      
+    </div>
+    
+    <!-- banner space & slider container starts-->
+    <div id="insideBanner">
+   	  <img src="images/aboutUsHeader.jpg" class="resrponsiveImgFull" alt="about us">
+    </div>
+  	<!--inside Banner ends-->
+    
+    
+    <!-- inside Matter Starts -->
+    <div id="insideMatter">
+    	<div class="whiteBlock">
+        	<h1>Infrastructure</h1>
+        	<p>We have state of the art inftrastructure for complete and the best plastic packaging solutions </p>
+            
+             <h3>Facilities</h3>
+                <ul>
+                	<li>Injection Moulding Works</li>
+                    <li>4 Colour UV Dry Offset Printing</li>
+                    <li>4 Colour Pad Printing</li>
+                    <li>Thermoforming Works</li>
+                    <li>Vacuume Forming Works</li>
+                    <li>Shrink Sleeve Labels</li>
+                    <li>Tagger Lids for Cups & Glasses</li>
+                    <li>Mould Design & Development</li>
+                </ul>
+                
+      </div>
+    </div>
+    <!-- inside Matter ends -->
+    <div id="footer">
+    	<p>&#169; All rights Reserved  - Sagar Plastic Products 2021 - 22</p>
+    </div>
+                   
+</div><!--main div ends-->
+
+
+<!--home slider script js-->
+<script src="js/slider.js"></script>
+<script>
+$(".slider-container").ikSlider({
+  speed: 300
+});
+$(".slider-container").on('changeSlide.ikSlider', function (evt) { console.log(evt.currentSlide); });
+
+</script>
+
+
+</body>
+</html>
