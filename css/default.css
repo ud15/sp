@@ -29,7 +29,10 @@ h1, h2, h3, h4, h5, p{
 	height:auto;
 }
 
-
+.rightPadding1{
+	padding-right:10px;
+	padding-left:40px;
+}
 /* header */
 #header{
 	padding-left:10%;
@@ -316,12 +319,20 @@ h1, h2, h3, h4, h5, p{
 	padding-right:200px;
 	text-align:center;
 }
-#insideMatter h1, h3{
+.whiteBlock1{
+	background-color:#fff;
+	padding:50px;
+	text-align:center;
+}
+#insideMatter h1, h3, h4. h5{
 	font-family: 'Roboto Slab', serif;
 	font-weight:bold;
 	color:#1e1e1e;
 	padding-bottom:10px;
 
+}
+#insideMatter h4{
+	color:#F00;
 }
 #insideMatter p{
 	font-family: 'Open Sans';
