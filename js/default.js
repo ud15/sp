@@ -28,4 +28,20 @@ $(document).ready(function(){
 			$("#main").animate({opacity: "1"},1);
 		}
 	})
+	
+	$(".plusSign").click(function(){
+		//alert("#mySidenav ul");
+
+		$("#mySidenav ul").slideDown();
+		$(".minusSign").show();
+		$(this).hide();
+	})
+	
+	$(".minusSign").click(function(){
+		//alert("#mySidenav ul");
+
+		$("#mySidenav ul").slideUp();
+		$(".plusSign").show();
+		$(this).hide();
+	})
 })
